@@ -1,0 +1,96 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0px 6px 10px rgba(145, 112, 130, 0.6);
+}
+body {
+  display: block;
+  margin: 40px auto;
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 90px;
+  font-weight: bolder;
+  margin: 0 auto;
+  display: block;
+}
+h2 {
+  font-size: 40px;
+  margin: 0 auto;
+  display: block;
+}
+h3 {
+  font-size: 40px;
+  display: block;
+  margin: 0 auto;
+  opacity: 0.6;
+}
+.email {
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.title-location {
+  font-size: 20px;
+  opacity: 0.8;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.contact-link {
+  text-decoration: none;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 30px 20px;
+  box-shadow: var(--box-shadow);
+  background: var(--primary-color);
+}
+.about-link {
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 30px 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.about-text {
+  display: flex;
+  justify-content: space-evenly;
+}
+.paragraph {
+  background: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 10px;
+  font-size: 20px;
+}
+.app-link {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 20px 15px;
+  margin: 30px 20px;
+  box-shadow: var(--box-shadow);
+  background: var(--primary-color);
+
+  border-radius: 4px;
+  padding: 20px 15px;
+}
+.container {
+  width: 100%;
+  display: block;
+}
+.rounded {
+  border-radius: 3px !important;
+}
+.shadow {
+  box-shadow: 8px 16px rgba(0, 0, 0, 0.2) !important;
+}
